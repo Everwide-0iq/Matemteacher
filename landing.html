@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Репетитор по математике — Юлия</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: all 0.6s ease-out;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  
+    /* Стили для списка */
+    ul.list-disc {
+      list-style-position: inside;
+      padding-left: 1.5rem; /* Отступ для пункта списка */
+    }
+    ul.list-disc li {
+      margin-bottom: 10px; /* Отступ между элементами */
+      text-indent: -1.35rem; /* Сдвиг текста к точке */
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-white text-gray-900">
+
+  <header class="bg-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-blue-700">Юлия — репетитор по математике</h1>
+      <a href="tel:+79024757437" class="text-blue-600 hover:underline font-semibold">+7 (902) 475-74-37</a>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-16 space-y-20">
+
+    <!-- Hero Section -->
+    <section class="text-center fade-in">
+    <img src="photo.jpg" alt="Фото репетитора" class="mx-auto rounded-full w-40 h-40 object-cover shadow-lg mb-6" />
+    <h2 class="text-4xl font-bold mb-4">Индивидуальные занятия по математике</h2>
+    <p class="text-lg text-gray-700 max-w-2xl mx-auto">
+    Профессиональная ускоренная подготовка к ЕГЭ, сдаче сессии, поступлению в престижные школы и ВУЗы.<br>
+    <span class="block font-semibold mt-2 text-3xl text-blue-700">Уникальная авторская методика</span>
+    <span class="block mt-2">Результат гарантирован независимо от начального уровня знаний.</span>
+  </p>
+</section>
+
+    <!-- Why Section -->
+<section class="grid md:grid-cols-3 gap-10 fade-in">
+  <div class="bg-white rounded-xl p-8 shadow-md">
+    <h3 class="text-2xl font-semibold text-blue-600 mb-4 text-center">Обо мне</h3>
+    <p class="text-gray-800 mb-3">В 1996 закончила Пермский Государственный Университет, механико-математический факультет.</p>
+    <p class="text-gray-800 mb-3">Поняв, что учиться было сложно и недоступно многим, я разработала собственную методику преподавания математики. Согласно ей даже самый слабый учащийся может быть успешным и сдать экзамен.</p>
+    <p class="text-gray-800 mb-3">Мои ученики стабильно поступают в ведущие ВУЗы России, сдают экзамены на высокий балл и успешно закрывают сессии.</p>
+    <p class="text-gray-800">Также по моей системе оформление работ делается на интернациональном математическом языке, поэтому многие мои ученики поступают и учатся заграницей.</p>
+  </div>
+
+  <div class="bg-white rounded-xl p-8 shadow-md">
+    <h3 class="text-2xl font-semibold text-blue-600 mb-4 text-center">Что я предлагаю</h3>
+    <ul class="space-y-3 text-gray-800 list-disc list-inside mb-4">
+      <li>Подготовка к ЕГЭ, ОГЭ, ВПР</li>
+      <li>Поступление в ВУЗ на бюджет</li>
+      <li>Помощь студентам: высшая математика, матанализ, алгебра, аналитическая геометрия</li>
+      <li>Онлайн-занятия в любое время</li>
+      <li>Работаю в Telegram</li>
+      <li>Первое тестирование бесплатно</li>
+    </ul>
+  </div>
+
+  <div class="bg-white rounded-xl p-8 shadow-md">
+    <h3 class="text-2xl font-semibold text-blue-600 mb-4 text-center">Как я выбираю учеников</h3>
+    <p class="text-gray-800 mb-3">Во время первого знакомства я определяю не только начальный уровень знаний, но главное, выявляю скорость восприятия новой информации.</p>
+    <p class="text-gray-800 mb-3">После пробного тестирования я скажу, возьмусь я за вас или нет. Меня интересует не уровень ваших знаний, а то, как вы воспринимаете информацию, полученную от меня.
+      Изначально, моя система была разработана для людей, окончивших школу давно или тех, кто плохо учился. Математика по моей методике не требует предварительных знаний.</p>
+    <p class="text-gray-800">Чаще всего моими лучшими учениками становятся не гении математики, а прошлые двоечники, от которых многие отказались.</p>
+  </div>
+
+  <div class="bg-white rounded-xl p-8 shadow-md md:col-span-3 mx-auto">
+    <h3 class="text-2xl font-semibold text-blue-600 mb-4 text-center">Почему именно я</h3>
+    <ul class="space-y-3 text-gray-800 list-disc list-inside mb-4">
+      <li>Уроки проходят непринуждённо и легко</li>
+      <li>Основную работу на уроке ученик выполняет сам, минимум лекций</li>
+      <li>Домашнее задание как увлекательный процесс</li>
+      <li>Позитивная доброжелательная обстановка</li>
+      <li>Никаких математических дебрей</li>
+      <li>Возможность ученику заниматься в любой точке, в любое время, не имея никаких устройств, кроме телефона. (Актуально в выходные и каникулы, на природе, на даче)</li>
+      <li>За урок по моей системе проходим то, на что обычный преподаватель тратит недели или даже месяцы</li>
+    </ul>
+  </div>
+  
+</section>
+
+    <!-- Contact Section -->
+    <section class="text-center fade-in">
+      <h3 class="text-2xl font-bold text-blue-700 mb-4">Записаться на тестирование</h3>
+      <p class="text-gray-700 mb-6">Свяжитесь со мной любым удобным способом:</p>
+      <div class="flex justify-center gap-6 flex-wrap text-lg font-semibold">
+        <a href="https://t.me/Matemteacher" target="_blank" class="text-blue-500 hover:underline">Telegram</a>
+        <a href="https://vk.com/matemateacher" target="_blank" class="text-blue-500 hover:underline">VK</a>
+        <a href="tel:+79024757437" class="text-blue-500 hover:underline">+7 (902) 475-74-37</a>
+      </div>
+    </section>
+
+    <footer class="text-center text-gray-500 text-sm mt-12">
+      <p>&copy; 2025 Юлия. Все права защищены.</p>
+    </footer>
+  </main>
+
+  <script>
+    // Fade-in effect on scroll
+    const fadeElements = document.querySelectorAll('.fade-in');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.1 });
+    fadeElements.forEach(el => observer.observe(el));
+  </script>
+
+</body>
+</html>
